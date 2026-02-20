@@ -1,47 +1,55 @@
-# Agostina Laffitte – Full Stack Developer
+ Agostina Laffitte – Full Stack Developer
+Repository showcasing academic and freelance projects developed during my university training in software development.
 
-Repositorio de presentación con proyectos académicos y freelance desarrollados durante mi formación universitaria en desarrollo de software.
+👩‍💻 Profile
+Full Stack Developer with experience in building web and mobile applications. I work with React and Angular on the frontend, and Java + Spring Boot and Node.js on the backend, applying layered architecture, microservices, best practices, and version control with Git.
 
----
+🚀 Featured Projects
+Full-Stack Web Application – Microservices Architecture  
+Academic group project
 
-##  Perfil
-Desarrolladora **Full Stack Junior** con experiencia en el desarrollo de aplicaciones web y móviles. Trabajo con **React y Angular** en frontend, y **Java + Spring Boot** y **Node.js** en backend, aplicando arquitectura por capas y **microservicios**, buenas prácticas y control de versiones con Git.
+Frontend: React
 
----
+Backend: Spring Boot (microservices architecture)
 
-##  Proyectos Destacados
+Independent services for authentication, business logic, and persistence
 
-###  Aplicación Web Full Stack – Arquitectura de Microservicios
- Proyecto académico grupal
+REST API communication
 
-- Sistema web desarrollado con **React** (frontend) y **Spring Boot** (backend).
-- Backend basado en **arquitectura de microservicios**, con servicios independientes para autenticación, lógica de negocio y persistencia.
-- Comunicación entre servicios mediante **APIs REST**.
-- Implementación de **autenticación y autorización con JWT**.
-- Gestión de datos utilizando **MySQL** y **MongoDB**.
-- Participación activa en el desarrollo **backend y frontend** dentro de un equipo de trabajo.
+JWT-based authentication and authorization
 
- Repositorio:  
-https://github.com/ValentinBulnes/Grupo-18-Arquitecturas-Web
+Data management with MySQL and MongoDB
 
----
+Active participation in both frontend and backend development
+🔗 Repository
 
-###  Aplicación Mobile Android
- Proyecto académico
+Android Mobile Application  
+Academic project
 
-- Desarrollo de aplicación móvil nativa para **Android** utilizando **Kotlin**.
-- Implementación de pantallas, navegación y manejo de estado.
-- Consumo de **APIs REST** para obtención y envío de datos.
-- Enfoque en buenas prácticas, arquitectura y experiencia de usuario.
+Native Android app developed with Kotlin
 
- Repositorio:  
-https://github.com/AgostinaLaffitte/Mobile-Android
+Screen design, navigation, and state management
 
----
+REST API consumption for data exchange
 
-## Tecnologías
-- **Lenguajes:** Java · JavaScript · TypeScript · Kotlin  
-- **Frontend:** React · Angular  
-- **Backend:** Spring Boot · Node.js · Express  
-- **Bases de Datos:** MySQL · MongoDB  
-- **Otros:** APIs REST · JWT · Git · GitHub
+Focused on architecture, UX, and clean code practices
+🔗 Repository
+
+Full-Stack Web App – Angular + Node.js + MongoDB  
+Freelance project
+
+Angular frontend with responsive UI
+
+Node.js + Express backend with REST APIs
+
+MongoDB for data persistence
+
+Deployed on Vercel
+🔗 Live App
+
+🛠️ Technologies
+Languages: Java · JavaScript · TypeScript · Kotlin
+Frontend: React · Angular
+Backend: Spring Boot · Node.js · Express
+Databases: MySQL · MongoDB
+Other: REST APIs · JWT · Git · GitHub
