@@ -7,8 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <!-- Banner -->
   <header class="banner">
+    <div class="banner-overlay"></div>
     <div class="banner-content">
       <h1>Agostina Laffitte</h1>
       <h2>Full Stack Developer</h2>
@@ -18,31 +27,106 @@
 
   <!-- Intro -->
   <section class="intro">
-    <p>Welcome! Here you'll find a selection of academic and freelance projects developed during my training in software development.</p>
+    <p>Welcome! Here you'll find a selection of academic, freelance and design projects developed during my training in software development.</p>
   </section>
 
   <!-- Projects -->
-  <section class="projects">
+  <section id="projects" class="projects">
     <h3>🚀 Featured Projects</h3>
-    <div class="card">
-      <h4>Microservices Web App</h4>
-      <p>React + Spring Boot · JWT · MySQL/MongoDB</p>
-      <a href="https://github.com/ValentinBulnes/Grupo-18-Arquitecturas-Web" target="_blank">View Repo</a>
+    <div class="projects-grid">
+      <div class="card">
+        <h4>Dog Shelter Web App</h4>
+        <p>React frontend + Node.js/Express backend with JWT authentication and MongoDB.</p>
+        <ul>
+          <li>Token-based authentication</li>
+          <li>RESTful API</li>
+          <li>NoSQL database</li>
+        </ul>
+        <div class="card-footer">
+          <a href="https://github.com/ValentinBulnes/Grupo-18-Arquitecturas-Web" target="_blank">View Repo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h4>Android Mobile App</h4>
+        <p>Kotlin-based mobile app with REST API integration and focus on UX.</p>
+        <ul>
+          <li>Modern Android architecture</li>
+          <li>API consumption</li>
+          <li>Responsive UI</li>
+        </ul>
+        <div class="card-footer">
+          <a href="https://github.com/AgostinaLaffitte/Mobile-Android" target="_blank">View Repo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h4>Angular + Node.js + MongoDB App</h4>
+        <p>Full-stack app with Angular frontend, Node.js backend and MongoDB database.</p>
+        <ul>
+          <li>CRUD operations</li>
+          <li>Responsive design</li>
+          <li>Deployed on Vercel</li>
+        </ul>
+        <div class="card-footer">
+          <a href="https://automotores-tl.vercel.app/vehicles" target="_blank">Live Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h4>UI/UX Design – Figma</h4>
+        <p>Prototyping and interface design for mobile/web apps.</p>
+        <ul>
+          <li>Wireframes</li>
+          <li>Interactive prototypes</li>
+          <li>Design systems</li>
+        </ul>
+        <div class="card-footer">
+          <a href="https://www.figma.com/file/tu-link" target="_blank">View Design</a>
+        </div>
+      </div>
     </div>
-    <div class="card">
-      <h4>Android Mobile App</h4>
-      <p>Kotlin · REST APIs · UX focused</p>
-      <a href="https://github.com/AgostinaLaffitte/Mobile-Android" target="_blank">View Repo</a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h3>🛠️ Skills</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>Languages</h4>
+        <p>Java · JavaScript · TypeScript · Kotlin</p>
+      </div>
+      <div class="skill-card">
+        <h4>Frontend</h4>
+        <p>React · Angular</p>
+      </div>
+      <div class="skill-card">
+        <h4>Backend</h4>
+        <p>Spring Boot · Node.js · Express</p>
+      </div>
+      <div class="skill-card">
+        <h4>Databases</h4>
+        <p>MySQL · MongoDB</p>
+      </div>
+      <div class="skill-card">
+        <h4>Other</h4>
+        <p>REST APIs · JWT · Git · GitHub · Figma</p>
+      </div>
     </div>
-    <div class="card">
-      <h4>Angular + Node.js + MongoDB App</h4>
-      <p>Angular frontend · Node.js backend · MongoDB</p>
-      <a href="https://automotores-tl.vercel.app/vehicles" target="_blank">Live Demo</a>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education">
+    <h3>🎓 Education</h3>
+    <div class="edu-card">
+      <p><strong>Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas</strong> – UNICEN </p>
+      <ul>
+        <li>Seminar in Angular Development</li>
+        <li>Seminar in Android Mobile Development</li>
+        <li>Seminar in Platform Development</li>
+      </ul>
     </div>
   </section>
 
   <!-- Contact -->
-  <section class="contact">
+  <section id="contact" class="contact">
     <h3>🤝 Work with me</h3>
     <p>Interested in collaborating? Let's connect!</p>
     <a class="whatsapp-btn" href="https://wa.me/5492284690919" target="_blank">Chat on WhatsApp</a>
@@ -51,5 +135,7 @@
   <footer>
     &copy; 2026 Agostina Laffitte
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

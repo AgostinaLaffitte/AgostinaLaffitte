@@ -6,11 +6,41 @@ body {
   text-align: center;
 }
 
+/* Navbar */
+.navbar {
+  background: #0f172a;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #38bdf8;
+}
+
 /* Banner */
 .banner {
-  background: linear-gradient(135deg, #1e293b, #0f172a);
-  padding: 80px 20px;
-  color: #f1f5f9;
+  position: relative;
+  background: url("banner.png") center/cover no-repeat;
+  padding: 120px 20px;
+  color: white;
+}
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.7);
+}
+.banner-content {
+  position: relative;
+  z-index: 1;
 }
 .banner h1 {
   font-size: 3em;
@@ -27,25 +57,50 @@ body {
   color: #94a3b8;
 }
 
-/* Cards */
+/* Projects */
 .projects {
   padding: 40px 20px;
 }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
 .card {
   background: #1e293b;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 400px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5);
   transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+}
+.card h4 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 1em;
+  color: #cbd5e1;
+}
+.card ul {
+  list-style: none;   /* 🔹 quita los puntitos */
+  margin: 10px 0;
+  padding-left: 0;    /* 🔹 elimina la indentación */
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.card-footer {
+  margin-top: auto;
 }
 .card a {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 10px 20px;
   background: #38bdf8;
   color: #0f172a;
@@ -55,6 +110,53 @@ body {
 }
 .card a:hover {
   background: #facc15;
+}
+
+/* Skills */
+.skills {
+  padding: 40px 20px;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.skill-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.skill-card h4 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+.skill-card p {
+  color: #cbd5e1;
+}
+
+/* Education */
+.education {
+  padding: 40px 20px;
+}
+.edu-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.edu-card p {
+  font-size: 1.1em;
+  color: #cbd5e1;
+}
+.edu-card ul {
+  list-style: none;   /* 🔹 quita los puntitos */
+  margin: 10px 0;
+  padding-left: 0;    /* 🔹 elimina la indentación */
+  color: #cbd5e1;
+  text-align: center;
 }
 
 /* Contact */
