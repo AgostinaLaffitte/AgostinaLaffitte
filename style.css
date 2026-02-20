@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  padding: 80px 20px;
+  color: #f1f5f9;
+}
+.banner h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.banner h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #38bdf8;
+}
+.banner p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #94a3b8;
+}
+
+/* Cards */
+.projects {
+  padding: 40px 20px;
+}
+.card {
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.card a:hover {
+  background: #facc15;
+}
+
+/* Contact */
+.contact {
+  padding: 40px 20px;
+}
+.whatsapp-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #25D366;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+.whatsapp-btn:hover {
+  background: #128C7E;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #94a3b8;
+}
