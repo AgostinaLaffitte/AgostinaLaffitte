@@ -56,3 +56,4 @@ Full Stack Developer with experience in building web and mobile applications. I 
 **Databases:** MySQL · MongoDB  
 **Other:** REST APIs · JWT · Git · GitHub
 
+### Visit my portfolio: https://agostinalaffitte.github.io/AgostinaLaffitte/
