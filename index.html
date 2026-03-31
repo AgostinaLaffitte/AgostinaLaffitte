@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar">
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
@@ -16,7 +15,6 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <!-- Banner -->
   <header class="banner">
     <div class="banner-overlay"></div>
     <div class="banner-content">
@@ -26,76 +24,97 @@
     </div>
   </header>
 
-  <!-- Intro -->
   <section class="intro">
     <p>Welcome! Here you'll find a selection of academic, freelance and design projects developed during my training in software development.</p>
   </section>
 
-  <!-- Projects -->
-<section id="projects" class="projects">
-  <h3>🚀 Featured Projects</h3>
+  <section id="projects" class="projects">
+    <h3>🚀 Featured Projects</h3>
 
-  <div class="projects-grid">
+    <div class="projects-grid">
+      <div class="card highlight">
+        <div class="badge">New ⚡</div>
+        <div class="card-content">
+          <h4>CodeSpark – AI Technical Assistant</h4>
+          <p>Intelligent tool for developers that transforms requirements into precise technical solutions using the Google Gemini API.</p>
+          <ul>
+            <li>Google Gemini AI Integration</li>
+            <li>Decoupled Architecture (Angular + Node.js)</li>
+            <li>Custom UI Notifications (Toasts)</li>
+            <li>Scalable Deployment on Vercel & Render</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <a href="https://ai-developer-assistant-rose.vercel.app/" target="_blank" class="demo-btn">Live Demo</a>
+          <a href="https://github.com/AgostinaLaffitte/AI-Developer-Assistant" target="_blank">View Repo</a>
+        </div>
+      </div>
 
-    <div class="card">
-      <h4>Microservices-Based Web Application</h4>
-      <p>Collaborative web application with a React frontend and a Node.js/Express microservices backend, featuring JWT authentication, an API Gateway, MongoDB, and Docker.</p>
-      <ul>
-        <li>Microservices architecture</li>
-        <li>API Gateway for service routing</li>
-        <li>RESTful APIs for service communication</li>
-        <li>JWT-based authentication</li>
-        <li>NoSQL database (MongoDB)</li>
-        <li>Docker containerization</li>
-      </ul>
-      <div class="card-footer">
-        <a href="https://github.com/ValentinBulnes/Grupo-18-Arquitecturas-Web/tree/main/Trabajo%20Practico%20Especial" target="_blank">View Repository</a>
+      <div class="card">
+        <div class="card-content">
+          <h4>Microservices-Based Web Application</h4>
+          <p>Collaborative web application with a React frontend and a Node.js/Express microservices backend, featuring JWT authentication and Docker.</p>
+          <ul>
+            <li>Microservices architecture</li>
+            <li>API Gateway for service routing</li>
+            <li>RESTful APIs for service communication</li>
+            <li>JWT-based authentication</li>
+            <li>NoSQL database (MongoDB)</li>
+            <li>Docker containerization</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/ValentinBulnes/Grupo-18-Arquitecturas-Web/tree/main/Trabajo%20Practico%20Especial" target="_blank">View Repository</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h4>Android Mobile App</h4>
+          <p>Kotlin-based mobile app with REST API integration and focus on UX.</p>
+          <ul>
+            <li>Modern Android architecture</li>
+            <li>API consumption</li>
+            <li>Responsive UI</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/AgostinaLaffitte/Mobile-Android" target="_blank">View Repo</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h4>Angular + Node.js + MongoDB App</h4>
+          <p>Full-stack app with Angular frontend, Node.js backend and MongoDB database.</p>
+          <ul>
+            <li>CRUD operations</li>
+            <li>Responsive design</li>
+            <li>Deployed on Vercel</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <a href="https://automotores-tl.vercel.app/vehicles" target="_blank">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h4>UI/UX Design & Implementation</h4>
+          <p>Prototyping, interface design, and implementation for mobile/web apps using Figma.</p>
+          <ul>
+            <li>Wireframes</li>
+            <li>Interactive prototypes</li>
+            <li>Design systems</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/lucagoro/Tp-Interfaces/tree/gh-pages" target="_blank">View Repo</a>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="card">
-      <h4>Android Mobile App</h4>
-      <p>Kotlin-based mobile app with REST API integration and focus on UX.</p>
-      <ul>
-        <li>Modern Android architecture</li>
-        <li>API consumption</li>
-        <li>Responsive UI</li>
-      </ul>
-      <div class="card-footer">
-        <a href="https://github.com/AgostinaLaffitte/Mobile-Android" target="_blank">View Repo</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4>Angular + Node.js + MongoDB App</h4>
-      <p>Full-stack app with Angular frontend, Node.js backend and MongoDB database.</p>
-      <ul>
-        <li>CRUD operations</li>
-        <li>Responsive design</li>
-        <li>Deployed on Vercel</li>
-      </ul>
-      <div class="card-footer">
-        <a href="https://automotores-tl.vercel.app/vehicles" target="_blank">Live Demo</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4>UI/UX Design & Implementation – Figma + Code</h4>
-      <p>Collaborative proyect, prototyping, interface design, and implementation for mobile/web apps.</p>
-      <ul>
-        <li>Wireframes</li>
-        <li>Interactive prototypes</li>
-        <li>Design systems</li>
-      </ul>
-      <div class="card-footer">
-        <a href="https://github.com/lucagoro/Tp-Interfaces/tree/gh-pages" target="_blank">View Repo</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-  <!-- Skills -->
   <section id="skills" class="skills">
     <h3>🛠️ Skills</h3>
     <div class="skills-grid">
@@ -117,12 +136,11 @@
       </div>
       <div class="skill-card">
         <h4>Other</h4>
-        <p>REST APIs · JWT · Git · GitHub · Figma</p>
+        <p>REST APIs · JWT · Git · GitHub · Figma · Generative AI</p>
       </div>
     </div>
   </section>
 
-  <!-- Education -->
   <section id="education" class="education">
     <h3>🎓 Education</h3>
     <div class="edu-card">
@@ -135,7 +153,6 @@
     </div>
   </section>
 
-  <!-- Contact -->
   <section id="contact" class="contact">
     <h3>🤝 Work with me</h3>
     <p>Interested in collaborating? Let's connect!</p>
